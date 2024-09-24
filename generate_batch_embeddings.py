@@ -1,3 +1,17 @@
+"""
+==== Job Title Embeddings Module ====
+
+This module facilitates the generation of embeddings for job titles using the OpenAI API. 
+It includes functionality to:
+- Prepare job titles from a CSV file.
+- Create JSONL files for batch processing.
+- Upload batches of job titles to the OpenAI API.
+- Monitor the status of batch jobs asynchronously.
+- Retrieve and save embeddings in structured formats (JSONL and CSV).
+"""
+
+
+
 import pandas as pd
 import numpy as np
 import json
