@@ -1,5 +1,7 @@
 ## OpenAI Batch API: Efficient Text Embedding Generation
 
+Note: This ReadMe is for the files in the `Generating_Batch_Embeddings` folder. The `Generating_Batch_Embedding.py` file is an End-to-End implementation for anyone interested!
+
 ### Overview
 This repository contains code and instructions for generating large-scale text embeddings using OpenAI's Batch API. The Batch API allows you to bypass rate limits and reduce API costs when processing large datasets, though it may introduce slight delays in response times.
 
